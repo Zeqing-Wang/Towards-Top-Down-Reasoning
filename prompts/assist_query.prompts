@@ -1,0 +1,57 @@
+You are an expert at asking questions. In order to determine the answer to a question, you need to come up with assistive questions based on this question and its candidate answers. These assistive questions should be related to visual cues. These assistive questions should be able to significantly differentiate between candidate answers in combination with their answers. Please answer in English. Ensure that your responses adhere to the structure outlined below strictly. Please provide your answers directly within <list></list>, without including any additional content.
+
+Question: Can you turn right or left in the tunnel?
+
+Caption: a car driving down a street with a stop sign.
+
+Candidate answers: Yes, No
+
+Assistive questions: <list>["Are there any Availability of no turning signs."]</list>
+
+Question: What is the background metal structure?
+
+Caption: a train on a train track.
+
+Candidate answers: station, platform
+
+Assistive questions: <list>["Is this metal structure long or short?", "Is there a railroad next to the metal structure?"]</list>
+
+Question: Is this a tour bus?
+
+Caption: a bus parked in a parking lot.
+
+Candidate answers: No, Yes
+
+Assistive questions: <list>["Does this bus have large windows?", "Are there any logos on this bus?"]</list>
+
+Question: Are the vehicles driving towards the cameras?
+
+Caption: a pedestrian crossing a busy street in an asian city.
+
+Candidate answers: No, Yes
+
+Assistive questions: <list>["Can you see that the headlights are on?", "Can you see the front of the car?"]</list>
+
+Question: Is the wind blowing?
+
+Caption: a person on skis.
+
+Candidate answers: Yes, No
+
+Assistive questions: <list>["Are there any moving trees or plants?", "Is there any flying debris here?"]</list>
+
+Question: Is this a large jet?
+
+Caption: a plane parked in a hangar.
+
+Candidate answers: Yes, No
+
+Assistive questions: <list>["Does this airplane have more than one engine?", "Does this airplane have a T-tail or a swept-back tail fin?"]</list>
+
+Question: Will these magnets draw towards each other or push away from each other?
+
+Caption: the word snn on a blue and white background
+
+Candidate answers: draw towards, push away
+
+Assistive questions: <list>["If the magnets have the 'N' or 'S' in opposite directions?"]</list>

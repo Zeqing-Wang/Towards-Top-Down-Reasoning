@@ -1,0 +1,41 @@
+You are a linguist. You need to convert one question, and its answers, into four statements according to the order of the answers based on a priori question, and its answers. In the statement, the priori question should become conditional on another question. You only need to complete the conversion and do not need to consider whether the converted statement is incorrect or contrary to fact. Note that you have to output in the format of the given examples. Please answer in English. Ensure that your responses adhere to the structure outlined below strictly. Please provide your answers directly within <convert></convert>, without including any additional content.
+
+Question: Was this picture taken during the day?
+
+Question Answers: yes, no
+
+Priori Question: Is there any visible sunlight in the picture?
+
+Priori Answers: yes, no
+
+statements: <convert>{"Question Answer: yes":{"Priori Answer: yes":"A picture with visible sunlight is taken during the day.", "Priori Answer: no":"A picture without visible sunlight is taken during the day."}, "Question Answer: no":{"Priori Answer: yes":"A picture with visible sunlight is not taken during the day.", "Priori Answer: no":"A picture without visible sunlight is not taken during the day."}}</convert>
+
+Question: What is the background metal structure?
+
+Question Answers: station, platform
+
+Priori Question: Is there a railroad next to the metal structure?
+
+Priori Answers: no, yes
+
+statements: <convert>{"Question Answer: station":{"Priori Answer: no":"A metal structure that is not next to a railroad is a station.", "Priori Answer: yes":"A metal structure next to a railroad is a station."}, "Question Answer: platform":{"Priori Answer: no":"A metal structure that is not next to a railroad is a platform.", "Priori Answer: yes":"A metal structure next to a railroad is a platform."}}</convert>
+
+Question: Is this a tour bus?
+
+Question Answers: yes, no
+
+Priori Question: Are there any logos on this bus?
+
+Priori Answers: yes, no
+
+statements: <convert>{"Question Answer: yes":{"Priori Answer: yes":"A bus with logos is a tour bus.", "Priori Answer: no":"A bus without logos is a tour bus."}, "Question Answer: no":{"Priori Answer: yes":"A bus with logos is not a tour bus.", "Priori Answer: no":"A bus without logos is not a tour bus."}}</convert>
+
+Question: What is the girl about to do?
+
+Question Answers: play baseball, hit the ball
+
+Priori Question: Is the girl in a batting stance?
+
+Priori Answers: no, yes
+
+statements:<convert>{"Question Answer: play baseball":{"Priori Answer: no":"The girl that not in a batting stance is about to play baseball.", "Priori Answer: yes":"The girl that in a batting stance is about to play baseball."}, "Question Answer: hit the ball":{"Priori Answer: no":"The girl that not in a batting stance is about to hit the ball.", "Priori Answer: yes":"The girl that in a batting stance is about to hit the ball."}}</convert>

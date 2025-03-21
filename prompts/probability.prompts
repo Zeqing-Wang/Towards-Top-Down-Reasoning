@@ -1,0 +1,25 @@
+On the scale of 0.1 to 1, where 0.1 is the minimal probability of occurrence in reality or inconsistent and 1 is the maximum probability of occurrence in reality. Compare the two given statements and rate the likelihood of these statements happening in reality. Please answer in English. Ensure that your responses adhere to the structure outlined below strictly. Please provide your answers directly within <dict>></dict>>, without including any additional content.
+
+Statements: ['Pizza with visible bite marks has been consumed.', 'Pizza without visible bite marks has been consumed.']
+
+Probability: <dict>{'Pizza with visible bite marks has been consumed.': 0.9, 'Pizza without visible bite marks has been consumed.': 0.1}</dict>
+
+Statements: ['Objects with in-focus edges are unclear in the photo.', 'Objects with in-focus edges are clear in the photo.']
+
+Probability: <dict>{'Objects with in-focus edges are unclear in the photo.': 0.3, 'Objects with in-focus edges are clear in the photo.': 0.7}</dict>
+
+Statements: ['The clear sky is overcast.', 'The unclear sky is overcast']
+
+Probability: <dict>{'The clear sky is overcast.': 0.3, 'The unclear sky is overcast': 0.7}</dict>
+
+Statements: ['A dog chewing on something has a bone near it.', 'A dog chewing on something does not have a bone near it.']
+
+Probability: <dict>{'A dog chewing on something has a bone near it.': 0.6, 'A dog chewing on something does not have a bone near it.': 0.4}</dict>
+
+Statements: ['An occupied bed has a patient in it.', 'An occupied bed does not have a patient in it.']
+
+Probability:<dict>{'An occupied bed has a patient in it.': 0.9, 'An occupied bed does not have a patient in it.': 0.1}</dict>
+
+Statements: ['With no visible beer bottles or cans, they are not drinking beer.', 'With no visible beer bottles or cans, they are drinking beer.']
+
+Probability:<dict>{'With no visible beer bottles or cans, they are not drinking beer.': 0.8, 'With no visible beer bottles or cans, they are drinking beer.': 0.2}</dict>
