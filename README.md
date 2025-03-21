@@ -18,7 +18,7 @@ We provide a unify api toolkit in api_tools/request_api_zoo.py, which support:
 - [Siliconflow](https://siliconflow.cn/zh-cn/)
 - [Zhipu](https://open.bigmodel.cn/)
 ### Used LLM Results
-Due to the update of LLM's API, we provide the middle results of the experiments we have conducted. You can download them from [GoogleDriver][[](https://drive.google.com/file/d/1sxj80Zs0KaQU1yZdx8oozjc8vMewwH7X/view?usp=sharing)]
+Due to the update of LLM's API, we provide the middle results of the experiments we have conducted. You can download them from [GoogleDriver](https://drive.google.com/file/d/1sxj80Zs0KaQU1yZdx8oozjc8vMewwH7X/view?usp=sharing)
 
 ## Running
 After setting the API key, or preparing the LLM results, you can run the framework via:
