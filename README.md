@@ -2,7 +2,7 @@
 
 Official PyTorch implementation for the paper:
 
-> **Towards top-down reasoning: An explainable multi-agent approach for visual question answering**.
+> **Towards top-down reasoning: An explainable multi-agent approach for visual question answering (TMM 2025)**.
 >
 > Zeqing Wang, Wentao Wan, Qiqing Lao, Runmeng Chen, Minjie Lang, Xiao Wang, Keze Wang, Liang Lin.
 >
