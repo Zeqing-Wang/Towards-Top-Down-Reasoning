@@ -1,3 +1,6 @@
+
+</think>
+
 ## **Towards Top Down Reasoning**
 
 Official PyTorch implementation for the paper:
@@ -28,7 +31,7 @@ After setting the API key, or preparing the LLM results, you can run the framewo
  ``` 
 ### Other Setting
 
-- We use a multi-process to speed up the LLM revoke, you can modify the num of process in 'step_eval_multi_process_api_zoo.py'
+- We use a multi-process to speed up the LLM retrieval, you can modify the num of process in 'step_eval_multi_process_api_zoo.py'
 - Download corresponding datasets and set the path in:  step_eval_mutil_process_api_zoo.py, test_for_integration_rights_alloction.py
 
 
